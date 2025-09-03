@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import youtubePhone from "@/assets/youtube-phone.jpg";
-import tiktokPhone from "@/assets/tiktok-phone.jpg";
+import instagramPhone from "@/assets/instagram-phone.jpg";
 
 const HeroSection = () => {
   const [email, setEmail] = useState("");
@@ -63,12 +63,12 @@ const HeroSection = () => {
                 </div>
               </div>
               
-              {/* TikTok phone */}
+              {/* Instagram phone */}
               <div className="relative z-10 w-48 md:w-56 ml-auto mr-8 transform rotate-12 hover:-rotate-6 transition-transform duration-700">
                 <div className="bg-gradient-to-br from-clustal-gold/20 to-transparent p-1 rounded-3xl">
                   <img
-                    src={tiktokPhone}
-                    alt="TikTok mobile interface"
+                    src={instagramPhone}
+                    alt="Instagram mobile interface"
                     className="w-full rounded-3xl shadow-2xl"
                   />
                 </div>
